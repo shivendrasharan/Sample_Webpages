@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)file:///D:/Area%2051/Website/web3.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <title>Welcome to Facebook - Log In, Sign Up or Learn More</title>
+  
+  <style type="text/css">
+      #main{background-color:#3b5998;
+            color: white;
+            height: 82px;}
+
+      #facelogo{position: absolute;
+                text-indent: 275px;
+            }
+
+      #user{font-size:11px;
+            font-family: 'lucida grande',tahoma,verdana,arial sans-serif;
+                  text-align: relative;
+                  top: 1000px;
+                position:absolute;
+                top: 30px;
+                left: 800px}
+
+      #chkbox{color: #98a9ca;
+            font-family: 'lucida grande',tahoma,verdana,arial sans-serif;
+          text-indent:inline;
+          font-size:11px;
+          position:absolute;
+          left:-5px;
+                }
+      
+      #keep{color: #98a9ca;
+            font-family: 'lucida grande',tahoma,verdana,arial sans-serif;
+            position:absolute;
+            left: 15px;
+            top: 38px;  }
+
+      #passblock{font-family: 'lucida grande',tahoma,verdana,arial sans-serif;
+            font-size:11px;
+          position:absolute;
+                top: 30px;
+                left: 960px}
+
+      #forgot{color: #98a9ca;
+            font-size: 11px;
+            font-style: 'lucida grande',tahoma,verdana,arial sans-serif;
+            position:absolute;
+                top: 38px;}
+      
+      #logbutton{
+                position:absolute;
+                top: 42px;
+                left: 1130px}
+      
+      #but{
+          background-color: purple;
+          font-family: 'lucida grande',tahoma,verdana,arial sans-serif;
+          font-weight: bold;  
+          
+          border-radius: 1px;
+          width: 50px;
+          }
+      
+      #message{position: absolute;
+                top:80px;
+                left:190px;
+                color:#0E385F;
+                font-size: 20px;
+                font-weight: bold;
+                font-family: 'lucida grande',tahoma,verdana,arial sans-serif;
+                line-height: 29px;
+                margin-top: 40px;
+                width: 560px;}
+      
+      #connection{position: absolute;
+                  top: 185px;
+                  left:170px;}
+
+      #signup{font-family: arial,sans-serif;
+              font-size: 36px;
+              font-weight: bold;
+              position: absolute;
+              top: 125px;
+              left: 790px;}
+
+     #itsfree{font-family: 'Freight Sans','lucida grande',tahoma,verdana,arial,sans-serif;
+              font-size: 19px;
+              position: absolute;
+              top: 175px;
+              left:790px;}
+
+      #upfirst{font-family: 'Freight Sans','lucida grande',tahoma,verdana,arial,sans-serif;
+              font-size: 19px;
+              position: absolute;
+              top: 210px;
+              left:790px;
+              }
+
+      #uplast{font-family: 'Freight Sans','lucida grande',tahoma,verdana,arial,sans-serif;
+              font-size: 19px;
+              position: absolute;
+              top: 210px;
+              left:940px;
+              }
+
+      #upemail{font-family: 'Freight Sans','lucida grande',tahoma,verdana,arial,sans-serif;
+              font-size: 19px;
+              position: absolute;
+              top: 245px;
+              left:790px;
+              }
+
+      #upreemail{font-family: 'Freight Sans','lucida grande',tahoma,verdana,arial,sans-serif;
+              font-size: 19px;
+              position: absolute;
+              top: 280px;
+              left:790px;
+              }
+
+      #uppassword{font-family: 'Freight Sans','lucida grande',tahoma,verdana,arial,sans-serif;
+              font-size: 19px;
+              position: absolute;
+              top: 315px;
+              left:790px;
+              }
+
+      #birthday{font-family: 'Freight Sans','lucida grande',tahoma,verdana,arial,sans-serif;
+              font-size: 19px;
+              position: absolute;
+              top: 345px;
+              left:790px;}
+
+      #day{font-family: 'Freight Sans','lucida grande',tahoma,verdana,arial,sans-serif;
+              font-size: 19px;
+              position: absolute;
+              top: 375px;
+              left:790px;}
+
+      #month{font-family: 'Freight Sans','lucida grande',tahoma,verdana,arial,sans-serif;
+              font-size: 19px;
+              position: absolute;
+              top: 375px;
+              left:875px;}
+
+      #years{font-family: 'Freight Sans','lucida grande',tahoma,verdana,arial,sans-serif;
+              font-size: 19px;
+              position: absolute;
+              top: 375px;
+              left:975px;}
+
+      #gender{font-family: 'Freight Sans','lucida grande',tahoma,verdana,arial,sans-serif;
+              font-size: 19px;
+              position: absolute;
+              top: 410px;
+              left:790px;}
+
+      #submit{
+              position: absolute;
+              top: 460px;
+              left:790px;
+          }
+
+      #sign{
+            background-color: green;
+            color: white;
+            border-radius: 2px;
+            width:125px;
+            height: 35px;
+      }
+  </style>
+
+</head>
+
+<body>
+  
+  <form id="header">
+
+    <div id="main">
+
+      <div id="facelogo"><img src="./Welcome to Facebook - Log In, Sign Up or Learn More_files/fb.png" height="82px" width="220px"></div>
+      
+      <div id="user">Email or Phone<br><input type="text" name="name" placeholder="Enter User Name"><br><div id="chkbox"><input type="checkbox" name="rem"></div><div id="keep">Keep me logged in</div></div>
+      
+      <div id="passblock">Password<br><input type="password" placeholder="Enter Password" name="pwd"><br><div id="forgot">Forgot your password?</div><br></div>
+      
+      <div id="logbutton"><input id="lgin" type="submit" value="Log In"></div>
+
+    </div>
+
+  </form>
+
+  <form>
+  
+  <div id="message">Facebook helps you connect and share with<br>the people in your life.</div>
+
+  <div id="connection"><img src="./Welcome to Facebook - Log In, Sign Up or Learn More_files/o1.jpg"></div>
+
+  <div id="signup">Sign Up</div>
+  
+  <div id="itsfree">It's Free and always will be.<br></div>
+    
+  <div id="upfirst"><input type="text" placeholder="First Name" name="firstname"></div>
+
+  <div id="uplast"><input type="text" placeholder="Last Name" name="lastname"></div>
+
+  <div id="upemail"><input type="text" placeholder="Your Email" name="email" size="45px"></div>
+
+  <div id="upreemail"><input type="text" placeholder="Re-enter Email" name="reemail" size="45px"></div>
+
+  <div id="uppassword"><input type="password" placeholder="New Password" name="newpass" size="45px"></div>
+
+  <br>
+
+  <div id="birthday">Birthday</div>
+
+  <div id="day"><select name="day"> <option>Day</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option> 
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                    <option>13</option>
+                                    <option>14</option>
+                                    <option>15</option>
+                                    <option>16</option>
+                                    <option>17</option>
+                                    <option>18</option>
+                                    <option>19</option>
+                                    <option>20</option>
+                                    <option>21</option>
+                                    <option>22</option>
+                                    <option>23</option>
+                                    <option>24</option>
+                                    <option>25</option>
+                                    <option>26</option>
+                                    <option>27</option>
+                                    <option>27</option>
+                                    <option>29</option>
+                                    <option>30</option>
+                                    <option>31</option>
+                                    
+  </select></div>
+
+  <div id="month"><select name="month"><option>Month</option>
+                                    <option>Jan</option>
+                                    <option>Feb</option>
+                                    <option>Mar</option>
+                                    <option>Apr</option>
+                                    <option>May</option>
+                                    <option>Jun</option>
+                                    <option>Jul</option>
+                                    <option>Aug</option>
+                                    <option>Sep</option>
+                                    <option>Oct</option>
+                                    <option>Nov</option>
+                                    <option>Dec</option>
+  </select></div>
+
+  <div id="years"><select name="years"><option>Year</option>
+  </select></div>
+
+  <div id="gender">
+    <input type="radio" name="gender">Female
+    <input type="radio" name="gender">Male
+  </div>
+
+  <div id="submit"><input id="sign" type="submit" value="Sign Up"></div>                                   
+
+</form>
+
+
+
+</body></html>
