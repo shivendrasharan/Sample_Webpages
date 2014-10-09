@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Application Page</title>
+		<style type=text/css>
+			body{background-image:url(des.jpg);}
+			h1{			color: white;
+						position: relative;
+						top:100px;
+						left:500px;}
+
+			.input{		text-align: center;
+						opacity:.5;
+						position: relative;
+						left:70px;
+						top:50px;}
+			
+			.input:hover{opacity:.75;}
+						
+
+			a{			color:black;
+						text-decoration: none;}
+
+			.wrap{		border: 1px solid white;
+						width: 300px;
+						height:200px;
+						border-radius: 10px;
+						opacity:.5;
+						position: relative;
+						top:150px;
+						left:35%;
+						color:white;}
+
+			.wrap:hover{opacity:.75;}
+
+			#button{	background-color: green;
+						border-radius: 2px;
+						border: 1px solid green;
+						width: 160px;
+						opacity: .5;
+						position:relative;
+						left:70px;
+						top:75px;}
+
+			#button:hover{opacity:.75;}
+			
+			a{			color:white;
+						font-size: 14px;
+						font-weight: bold;}
+
+			#summary{	font-size: 20px;
+						font-weight: bolder;
+						position:relative;
+						top:10px;
+						text-align: center;
+						}
+			#wrap1{background-color: red;
+					position:relative;
+					left:300px;}
+
+			#wrap2{background-color: blue;
+					position:relative;
+					left:450px;}
+
+			#wrap3{background-color: orange;
+					position:relative;
+					left:300px;}
+
+			#wrap4{background-color: green;
+					position:relative;
+					left:450px;}
+
+			#wrap5{background-color: black;
+					position:relative;
+					left:300px;}
+
+			#submit{width:100px;
+					height:50px;
+					background-color: purple;
+					position:relative;
+					left:50%;
+					}
+		</style>
+	</head>
+
+	<body>
+		
+		<div id="heading"><h1>Application Page</h1></div>
+		<div id="wrap1" class="wrap"><form>
+		<div id="summary">Summary</div>
+			<div><input type="text" name="name" placeholder="Enter Name" class="input" title="Enter Your Name Here"></div>
+			<div><input type="text" name="USN" placeholder="Enter USN 1MV*******" class="input" title="Enter Your USN Here"></div>  
+			
+		</form></div>
+
+		<div id="wrap2" class="wrap"><form>
+		<div id="summary">Education Background</div>
+			<div><input type="text" name="name" placeholder="Enter Class 10 Marks" class="input" title="Enter Marks"></div>
+			<div><input type="text" name="USN" placeholder="Enter 2nd PUC Marks" class="input" title="Enter Marks"></div>  
+			
+		</form></div>
+
+		<div id="wrap3" class="wrap"><form>
+		<div id="summary">Technical Expeience</div>
+			<div><input type="text" name="name" placeholder="Enter Your TTechnical Experience" class="input" title="Enter the competitions attended and researche done"></div>
+			 
+			
+		</form></div>
+
+		<div id="wrap4" class="wrap"><form>
+		<div id="summary">Technical Skills</div>
+			<div><input type="text" name="name" placeholder="Enter your Technical Skills" class="input" title="Enter the tehnical skills you have"></div>
+			 
+
+		</for></div> 
+			
+		<div id="wrap5" class="wrap"><form>
+		<div id="summary">Hobbies & Extra-Curricular Activities</div>
+			<div><input type="text" name="name" placeholder="Enter Your Hobbies" class="input"></div>
+			<div><input type="text" name="USN" placeholder="Enter Extra Curricular Activities You've participated" class="input" title="Enter Details"></div>  
+			
+		</form></div><br/><br/>
+		<form><button id="submit" class="wrap">Submit</button></form>
+
+	</body>
+
+
+</html>
